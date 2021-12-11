@@ -1,0 +1,101 @@
+header{
+	border: 1px solid #b5b7ba;
+    background-color: #fff;
+    min-width:1280px;
+    height: 50px;
+    text-align: center;
+    padding-top: 18px;
+}
+
+body{
+	font-family: 'Mistral';
+}
+.txt{
+	font-size: 30px;
+    color: #000;
+    padding: 30px;
+}
+    
+a{
+	text-decoration: none;
+} 
+*{
+	margin: 0;
+	paddung: 0;
+	top: 0;
+	left: 0;
+}
+
+.main{
+	width: 100%;
+	height: 100vh;
+	background-color: #87CEFA;
+}
+.text-main{
+	position: relative;
+	text-align: center;
+	top:-10%;
+	color: #000;
+}
+.main h1{
+	font-size: 4rem;
+	text-transform: uppercase;
+	font-family: 'Mistral';
+}
+.main p{
+	msrgin-top: 30px;
+	font-size: 1.5rem;
+	font-family: 'Georgia';
+	position: relative;
+}
+.dostoprimechatelnosti{
+	height: 80vh;
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.dostoprimechatelnosti h2{
+	font-size: 3em;
+	color: #2c3e50;
+	font-family: 'Mistral';
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.container{
+	margin: 100px auto auto auto auto;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.card{
+	width: 25%;
+	height: 300px;
+	display: inline-block;
+	
+	margin: 0 10px;
+}
+.card p{
+	text-align: center;
+	font-size: 2.5em;
+	position: relative;
+	top: 50%;
+	transform: translate(0, -50%);
+	color: #000;
+}   
+.round{
+	border:50px ;
+}
+.th{
+	font-family: 'Georgia';
+}
+.podval{
+	font-size: 25px;
+	color: #000;
+    padding: 10px;
+}
+.horg{
+	font-size: 40px;
+	line-height: 3;
+}
